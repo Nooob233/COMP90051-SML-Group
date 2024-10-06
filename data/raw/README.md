@@ -1,8 +1,7 @@
 # COMP90051-SML-Group
 
 ## Tables Description
-Data Source: https://foreverdata.org/1015/
-Each data set is comprised of several tables detailed as follows:
+Data Source: https://foreverdata.org/1015/. Each data set is comprised of several tables detailed as follows:
 
 ### a. Members Table
 - **MemberID**: A unique member ID.
