@@ -2,10 +2,6 @@
 Group Assignment for Statistical Machine Learning (COMP90051_2024_SM2)
 
 Members：Ximing Wan, Yang Jin, Lanye Shao
-<<<<<<< HEAD
-5-data_selection.ipynb do 3 different feature selection
-9-xgboost.ipynb Evaluate the performance on three different feature sets and hyperparemeter tuning
-=======
 
 This repository contains a series of Jupyter notebooks that walk through the process of data preprocessing, feature selection, and model training and evaluation. The project focuses on building an optimized model to analyze and predict data using various techniques such as nested cross-validation, feature selection, and hyperparameter tuning.
 
