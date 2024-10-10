@@ -32,6 +32,9 @@ This notebook handles drug and lab count data, specifically:
 ### 4. `4-merge_data.ipynb(Ximing)`
 The purpose of this notebook is to merge the processed datasets (features: members, claims, drug, lab counts, and label: days in hospital) into a single dataset. This step ensures that all necessary features are combined before proceeding with feature selection and model training.
 
+### 5. `5-data_selection.ipynb.ipynb(Lanye Shao)`
+The purpose of this notebook is to do 2 different feature selection--Filter method and wrap method.
+
 ### 6. `6-rf_feature_selection.ipynb(Ximing)`
 This notebook uses Random Forest feature importance for feature selection. It identifies the most critical features in the merged dataset that influence the model's performance and removes redundant or irrelevant features.
 
@@ -45,6 +48,9 @@ This notebook performs hyperparameter tuning on the `max_depth` parameter of the
 
 ### 8. `8-random_forest_final_model.ipynb(Ximing)`
 This notebook trains the final Random Forest model using the optimal hyperparameters. By examining the curve and the error bars, you can see how the model’s generalization ability improves with more data and whether there is a gap between the training and validation errors (indicating potential underfitting or overfitting).
+
+### 9. `9-xgboost.ipynb(Lanye Shao)`
+This notebook trains xgboost on 3 different feature sets, and select the best feature set,then turn hyperperameter max_depth and subsample using nested cross-validation, balancing model complexity and performance.
 
 ### 10. `10-rf_under_diff_featureSelections.ipynb(Ximing)`
 In this notebook, by comparing the learning curves of the three feature selection methods, we can quickly assess whether any of the methods has a significant impact on the model's performance. This helps to identify the most effective feature selection approach for optimizing the Random Forest model.
