@@ -33,7 +33,7 @@ This notebook handles drug and lab count data, specifically:
 The purpose of this notebook is to merge the processed datasets (features: members, claims, drug, lab counts, and label: days in hospital) into a single dataset. This step ensures that all necessary features are combined before proceeding with feature selection and model training.
 
 ### 5. `5-data_selection.ipynb.ipynb(Lanye Shao)`
-The purpose of this notebook is to do 2 different feature selection--Filter method and wrap method.
+The purpose of this notebook is to do 2 different feature selection--Filter method and wrap method. The correlation coefficient method has been done for numerical data. Categorical data has been selected based on mutual information. Use Recursive Feature Elimination (RFE) for wrap, linear regression is the model RFE used.
 
 ### 6. `6-rf_feature_selection.ipynb(Ximing)`
 This notebook uses Random Forest feature importance for feature selection. It identifies the most critical features in the merged dataset that influence the model's performance and removes redundant or irrelevant features.
